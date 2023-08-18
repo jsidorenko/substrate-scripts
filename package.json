@@ -1,0 +1,21 @@
+{
+  "name": "substrate-scripts",
+  "version": "1.0.0",
+  "description": "Various helpers to work with substrate",
+  "author": "jsidorenko",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/api": "10.9.1",
+    "@polkadot/util-crypto": "12.3.2",
+    "cross-env": "7.0.3",
+    "dotenv": "16.3.1",
+    "prettier": "3.0.2"
+  },
+  "scripts": {
+    "network-info": "node ./scripts/network-info.js",
+    "liquidity-info": "node ./scripts/liquidity-info.js",
+    "swaps": "node ./scripts/swaps.js",
+    "generate-account": "node ./scripts/generate-account.js",
+    "setup-pool": "node ./scripts/setup-pool.js"
+  }
+}
